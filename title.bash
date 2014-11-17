@@ -16,7 +16,9 @@ do
   grep -v '古坂大魔王' | 
   grep -v "エンディングテーマ" | 
   grep -v -E "(質問|上田|コーナー|楽しかった|日</a)" | 
-  sed 's/.*href="\([^\"]*\)".*/\1/' >> $dir/urls.txt
+  sed 's/.*href="\([^\"]*\)".*/\1/' | 
+  sed 's;^;http://www.nicovideo.jp;' >> $dir/urls.txt
+
 
   cat $dir/html/${num}.html | 
   grep 'くりぃむしちゅー' | 
@@ -41,4 +43,5 @@ do
   sed 's/  / /' | 
   sed 's/[0-9][^ ]* //' >> $dir/titles.txt
 done
-cat $dir/titles.txt
+
+paste -d"," $dir/titles.txt $dir/urls.txt | sort > $dir/urls_titles.txt
