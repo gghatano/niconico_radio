@@ -1,0 +1,29 @@
+> # install.packages("ROAuth)
+> library("twitteR")
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #110
++ http://www.nicovideo.jp/watch/sm13072690?ref=search_key_video
++ 古坂大魔王
++ ゲストを伏せてスタート
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #110\nhttp://t.co/VSGJa4omtC\n古坂大魔王\nゲストを伏せてスタート"
+> 

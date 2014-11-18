@@ -3697,3 +3697,8 @@ Loading required package: rjson
 > updateStatus(message)
 [1] "ariue_allnight: くりぃむしちゅーANN #84\nhttp://t.co/WPiAUWKX4r\nゲスト なし\n事務所の後輩、寿司（ことぶきつかさ）の営業ネタ"
 > 
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson

@@ -16,10 +16,10 @@ twit.oauth <- OAuthFactory$new(
 
 registerTwitterOAuth(twit.oauth)
 message = "
-くりぃむしちゅーANN #84
-http://www.nicovideo.jp/watch/sm11488642?ref=search_key_video
-ゲスト なし
-事務所の後輩、寿司（ことぶきつかさ）の営業ネタ
+くりぃむしちゅーANN #110
+http://www.nicovideo.jp/watch/sm13072690?ref=search_key_video
+古坂大魔王
+ゲストを伏せてスタート
 
 "
 time = Sys.time()
