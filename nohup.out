@@ -1,0 +1,3699 @@
+くりぃむしちゅーANN #18%http://www.nicovideo.jp/watch/sm8290859?ref=search_key_video%ゲスト なし%昭和のラジオっぽく始まる（後のスターダストナイト）%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #18
++ http://www.nicovideo.jp/watch/sm8290859?ref=search_key_video
++ ゲスト なし
++ 昭和のラジオっぽく始まる（後のスターダストナイト）
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #18\nhttp://t.co/3GWnIZsOVG\nゲスト なし\n昭和のラジオっぽく始まる（後のスターダストナイト）"
+> 
+くりぃむしちゅーANN #117%http://www.nicovideo.jp/watch/sm13121930?ref=search_key_video%ゲスト なし%ウケの報告%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #117
++ http://www.nicovideo.jp/watch/sm13121930?ref=search_key_video
++ ゲスト なし
++ ウケの報告
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #117\nhttp://t.co/3X9WC5ITKT\nゲスト なし\nウケの報告"
+> 
+くりぃむしちゅーANN #60%http://www.nicovideo.jp/watch/sm8815898?ref=search_key_video%ゲスト なし%「田中角栄か俺は」%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #60
++ http://www.nicovideo.jp/watch/sm8815898?ref=search_key_video
++ ゲスト なし
++ 「田中角栄か俺は」
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #60\nhttp://t.co/Mw8HN2wBhR\nゲスト なし\n「田中角栄か俺は」"
+> 
+くりぃむしちゅーANN #60%http://www.nicovideo.jp/watch/sm8815898?ref=search_key_video%ゲスト なし%「田中角栄か俺は」%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #60
++ http://www.nicovideo.jp/watch/sm8815898?ref=search_key_video
++ ゲスト なし
++ 「田中角栄か俺は」
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "Forbidden"
+Error in twInterfaceObj$doAPICall("statuses/update", params = params,  : 
+  Error: Forbidden
+Calls: updateStatus -> <Anonymous>
+Execution halted
+くりぃむしちゅーANN #46%http://www.nicovideo.jp/watch/sm8466061?ref=search_key_video%ゲスト なし%上田第一子誕生%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #46
++ http://www.nicovideo.jp/watch/sm8466061?ref=search_key_video
++ ゲスト なし
++ 上田第一子誕生
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #46\nhttp://t.co/yH3TfGOZde\nゲスト なし\n上田第一子誕生"
+> 
+くりぃむしちゅーANN #155%http://www.nicovideo.jp/watch/sm13474923?ref=search_key_video%ゲスト なし%有田上田に無断でブルーレイを買った件を謝罪%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #155
++ http://www.nicovideo.jp/watch/sm13474923?ref=search_key_video
++ ゲスト なし
++ 有田上田に無断でブルーレイを買った件を謝罪
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #155\nhttp://t.co/rHKUuiO6L2\nゲスト なし\n有田上田に無断でブルーレイを買った件を謝罪"
+> 
+くりぃむしちゅーANN #8%http://www.nicovideo.jp/watch/sm8256656?ref=search_key_video%ゲスト なし%「お前は千手観音かって」%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #8
++ http://www.nicovideo.jp/watch/sm8256656?ref=search_key_video
++ ゲスト なし
++ 「お前は千手観音かって」
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #8\nhttp://t.co/asMAwuZZet\nゲスト なし\n「お前は千手観音かって」"
+> 
+くりぃむしちゅーANN #69%http://www.nicovideo.jp/watch/sm11488925?ref=search_key_video%ゲスト なし%『スターダストナイト』(怪鳥音/チキチキ/ビートボックス...計5分4秒)%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #69
++ http://www.nicovideo.jp/watch/sm11488925?ref=search_key_video
++ ゲスト なし
++ 『スターダストナイト』(怪鳥音/チキチキ/ビートボックス...計5分4秒)
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #69\nhttp://t.co/GGZSSZfrql\nゲスト なし\n『スターダストナイト』(怪鳥音/チキチキ/ビートボックス...計5分4秒)"
+> 
+くりぃむしちゅーANN #133%http://www.nicovideo.jp/watch/sm13274621?ref=search_key_video%ゲスト なし%タマキンの流れから「誕生日おめでとう」%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #133
++ http://www.nicovideo.jp/watch/sm13274621?ref=search_key_video
++ ゲスト なし
++ タマキンの流れから「誕生日おめでとう」
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #133\nhttp://t.co/YwXl7icZrT\nゲスト なし\nタマキンの流れから「誕生日おめでとう」"
+> 
+くりぃむしちゅーANN #140%http://www.nicovideo.jp/watch/sm13382628?ref=search_key_video%ゲスト なし%番組３周年%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #140
++ http://www.nicovideo.jp/watch/sm13382628?ref=search_key_video
++ ゲスト なし
++ 番組３周年
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #140\nhttp://t.co/0EANzyAxRl\nゲスト なし\n番組３周年"
+> 
+くりぃむしちゅーANN #94%http://www.nicovideo.jp/watch/sm11217216?ref=search_key_video%ゲスト なし%メリタ（有田）恋愛大反省会SP%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #94
++ http://www.nicovideo.jp/watch/sm11217216?ref=search_key_video
++ ゲスト なし
++ メリタ（有田）恋愛大反省会SP
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #94\nhttp://t.co/KeVA1IkFIV\nゲスト なし\nメリタ（有田）恋愛大反省会SP"
+> 
+くりぃむしちゅーANN #3%http://www.nicovideo.jp/watch/sm8245716?ref=search_key_video%ゲスト なし%ノア東京ドーム講演%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #3
++ http://www.nicovideo.jp/watch/sm8245716?ref=search_key_video
++ ゲスト なし
++ ノア東京ドーム講演
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #3\nhttp://t.co/Ajh2Z6kIbk\nゲスト なし\nノア東京ドーム講演"
+> 
+くりぃむしちゅーANN #101%http://www.nicovideo.jp/watch/sm13100852?ref=search_key_video%ゲスト なし%アイドリングを期待していた人へのお詫び%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #101
++ http://www.nicovideo.jp/watch/sm13100852?ref=search_key_video
++ ゲスト なし
++ アイドリングを期待していた人へのお詫び
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #101\nhttp://t.co/AlH2tdlwbG\nゲスト なし\nアイドリングを期待していた人へのお詫び"
+> 
+くりぃむしちゅーANN #31%http://www.nicovideo.jp/watch/sm8343063?ref=search_key_video%土田晃之%事務所対抗マネージャー座談会%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #31
++ http://www.nicovideo.jp/watch/sm8343063?ref=search_key_video
++ 土田晃之
++ 事務所対抗マネージャー座談会
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #31\nhttp://t.co/MgNndFGVP8\n土田晃之\n事務所対抗マネージャー座談会"
+> 
+くりぃむしちゅーANN #110%http://www.nicovideo.jp/watch/sm13072690?ref=search_key_video%古坂大魔王%ゲストを伏せてスタート%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #110
++ http://www.nicovideo.jp/watch/sm13072690?ref=search_key_video
++ 古坂大魔王
++ ゲストを伏せてスタート
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #110\nhttp://t.co/VSGJa4omtC\n古坂大魔王\nゲストを伏せてスタート"
+> 
+くりぃむしちゅーANN #103%http://www.nicovideo.jp/watch/sm11856766?ref=search_key_video%マツコ・デラックス%テノール編のまいったね%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #103
++ http://www.nicovideo.jp/watch/sm11856766?ref=search_key_video
++ マツコ・デラックス
++ テノール編のまいったね
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #103\nhttp://t.co/oRwN7ha8ts\nマツコ・デラックス\nテノール編のまいったね"
+> 
+くりぃむしちゅーANN #72%http://www.nicovideo.jp/watch/sm10023135?ref=search_key_video%ゲスト なし%『スターダストナイト』(木下が冷静だから一番バカ/ミッキーにクソぶっかけられる/チキチキ/ビートボックス/MCハマー/「もう嫌あああ！」/水没...計７分半)%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #72
++ http://www.nicovideo.jp/watch/sm10023135?ref=search_key_video
++ ゲスト なし
++ 『スターダストナイト』(木下が冷静だから一番バカ/ミッキーにクソぶっかけられる/チキチキ/ビートボックス/MCハマー/「もう嫌あああ！」/水没...計７分半)
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+Error in updateStatus(message) : 
+  Status can not be more than 140 characters
+Execution halted
+くりぃむしちゅーANN #2%http://www.nicovideo.jp/watch/sm8238000?ref=search_key_video%ゲスト なし%有田彼女が出来たスキャンダル%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #2
++ http://www.nicovideo.jp/watch/sm8238000?ref=search_key_video
++ ゲスト なし
++ 有田彼女が出来たスキャンダル
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #2\nhttp://t.co/Hm7IrIF5fG\nゲスト なし\n有田彼女が出来たスキャンダル"
+> 
+くりぃむしちゅーANN #158%http://www.nicovideo.jp/watch/sm13474974?ref=search_key_video%ゲスト なし%緊急特番くりぃむしちゅーの謎を追え%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #158
++ http://www.nicovideo.jp/watch/sm13474974?ref=search_key_video
++ ゲスト なし
++ 緊急特番くりぃむしちゅーの謎を追え
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #158\nhttp://t.co/xZgbqpTbq8\nゲスト なし\n緊急特番くりぃむしちゅーの謎を追え"
+> 
+くりぃむしちゅーANN #139%http://www.nicovideo.jp/watch/sm13372283?ref=search_key_video%ゲスト なし%有田ブルーレイについて語る%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #139
++ http://www.nicovideo.jp/watch/sm13372283?ref=search_key_video
++ ゲスト なし
++ 有田ブルーレイについて語る
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #139\nhttp://t.co/vw7G9GIAPL\nゲスト なし\n有田ブルーレイについて語る"
+> 
+くりぃむしちゅーANN #106%http://www.nicovideo.jp/watch/sm11857351?ref=search_key_video%ゲスト なし%松尾元ディレクターの結婚式%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #106
++ http://www.nicovideo.jp/watch/sm11857351?ref=search_key_video
++ ゲスト なし
++ 松尾元ディレクターの結婚式
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #106\nhttp://t.co/AtBuBSOM0q\nゲスト なし\n松尾元ディレクターの結婚式"
+> 
+くりぃむしちゅーANN #15%http://www.nicovideo.jp/watch/sm8290435?ref=search_key_video%長州小力%『長州小力VS長州有力』%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #15
++ http://www.nicovideo.jp/watch/sm8290435?ref=search_key_video
++ 長州小力
++ 『長州小力VS長州有力』
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #15\nhttp://t.co/6cgAjzcrio\n長州小力\n『長州小力VS長州有力』"
+> 
+くりぃむしちゅーANN #38%http://www.nicovideo.jp/watch/sm8407637?ref=search_key_video%松本ともこ（マッピー）%『スターダストナイト』(民主党の話/ワンちゃんの話/男性のタイプ)%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #38
++ http://www.nicovideo.jp/watch/sm8407637?ref=search_key_video
++ 松本ともこ（マッピー）
++ 『スターダストナイト』(民主党の話/ワンちゃんの話/男性のタイプ)
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #38\nhttp://t.co/AD5O9Z1lOe\n松本ともこ（マッピー）\n『スターダストナイト』(民主党の話/ワンちゃんの話/男性のタイプ)"
+> 
+くりぃむしちゅーANN #78%http://www.nicovideo.jp/watch/sm10061951?ref=search_key_video%ゲスト なし%「ネットで探せるエイブル～♪」の続きが思い出せなくてキレる有田%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #78
++ http://www.nicovideo.jp/watch/sm10061951?ref=search_key_video
++ ゲスト なし
++ 「ネットで探せるエイブル～♪」の続きが思い出せなくてキレる有田
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #78\nhttp://t.co/S4IrCjqlRr\nゲスト なし\n「ネットで探せるエイブル～♪」の続きが思い出せなくてキレる有田"
+> 
+くりぃむしちゅーANN #93%http://www.nicovideo.jp/watch/sm10518175?ref=search_key_video%麒麟%コアラ離婚を直撃したい%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #93
++ http://www.nicovideo.jp/watch/sm10518175?ref=search_key_video
++ 麒麟
++ コアラ離婚を直撃したい
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #93\nhttp://t.co/srSENPAY1U\n麒麟\nコアラ離婚を直撃したい"
+> 
+くりぃむしちゅーANN #137%http://www.nicovideo.jp/watch/sm13363362?ref=search_key_video%ゲスト なし%続・岡田師匠の話（明石家さんまをパクってる/「イヤン！」連発/「ごきげんよう」や「2時っチャオ！」でも連発）さがね「足痛いわぁ」%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #137
++ http://www.nicovideo.jp/watch/sm13363362?ref=search_key_video
++ ゲスト なし
++ 続・岡田師匠の話（明石家さんまをパクってる/「イヤン！」連発/「ごきげんよう」や「2時っチャオ！」でも連発）さがね「足痛いわぁ」
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+Error in updateStatus(message) : 
+  Status can not be more than 140 characters
+Execution halted
+くりぃむしちゅーANN #131%http://www.nicovideo.jp/watch/sm13244074?ref=search_key_video%アントニオ小猪木%『春のアントニオ猪木祭り』%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #131
++ http://www.nicovideo.jp/watch/sm13244074?ref=search_key_video
++ アントニオ小猪木
++ 『春のアントニオ猪木祭り』
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #131\nhttp://t.co/IvaJJuB81i\nアントニオ小猪木\n『春のアントニオ猪木祭り』"
+> 
+くりぃむしちゅーANN #79%http://www.nicovideo.jp/watch/sm10062034?ref=search_key_video%水道橋博士%『A-1グランプリ』決勝戦%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #79
++ http://www.nicovideo.jp/watch/sm10062034?ref=search_key_video
++ 水道橋博士
++ 『A-1グランプリ』決勝戦
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #79\nhttp://t.co/Efe3SAJ3S6\n水道橋博士\n『A-1グランプリ』決勝戦"
+> 
+くりぃむしちゅーANN #63%http://www.nicovideo.jp/watch/sm9855983?ref=search_key_video%蒼井そら%『第7回童貞妄想選手権』(本当は第一回)%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #63
++ http://www.nicovideo.jp/watch/sm9855983?ref=search_key_video
++ 蒼井そら
++ 『第7回童貞妄想選手権』(本当は第一回)
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #63\nhttp://t.co/qu1o2Tfe3d\n蒼井そら\n『第7回童貞妄想選手権』(本当は第一回)"
+> 
+くりぃむしちゅーANN #9%http://www.nicovideo.jp/watch/sm8265359?ref=search_key_video%ゲスト なし%台風情報%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #9
++ http://www.nicovideo.jp/watch/sm8265359?ref=search_key_video
++ ゲスト なし
++ 台風情報
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #9\nhttp://t.co/4l98idVyd8\nゲスト なし\n台風情報"
+> 
+くりぃむしちゅーANN #76%http://www.nicovideo.jp/watch/sm10050692?ref=search_key_video%ゲスト なし%久々「まいったね」%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #76
++ http://www.nicovideo.jp/watch/sm10050692?ref=search_key_video
++ ゲスト なし
++ 久々「まいったね」
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #76\nhttp://t.co/IP0IskE05n\nゲスト なし\n久々「まいったね」"
+> 
+くりぃむしちゅーANN #23%http://www.nicovideo.jp/watch/sm8291184?ref=search_key_video%さがね正裕%『スターダストナイト』(雪が好きな人、嫌いな人)%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #23
++ http://www.nicovideo.jp/watch/sm8291184?ref=search_key_video
++ さがね正裕
++ 『スターダストナイト』(雪が好きな人、嫌いな人)
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #23\nhttp://t.co/KlCD0gJ9m9\nさがね正裕\n『スターダストナイト』(雪が好きな人、嫌いな人)"
+> 
+くりぃむしちゅーANN #144%http://www.nicovideo.jp/watch/sm13392489?ref=search_key_video%ゲスト なし%有田がド天然キャラでオリンピックの質問１（谷亮子の心情/垂れ幕って何人がかりで作るんですか？/世界新は誰が言い出した？/体操ってストレッチみたいなやつですか？/床って何ですか？/オグシオになりきって回答(オグシオ晋也)/五輪(いつわ)晋也）%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #144
++ http://www.nicovideo.jp/watch/sm13392489?ref=search_key_video
++ ゲスト なし
++ 有田がド天然キャラでオリンピックの質問１（谷亮子の心情/垂れ幕って何人がかりで作るんですか？/世界新は誰が言い出した？/体操ってストレッチみたいなやつですか？/床って何ですか？/オグシオになりきって回答(オグシオ晋也)/五輪(いつわ)晋也）
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+Error in updateStatus(message) : 
+  Status can not be more than 140 characters
+Execution halted
+くりぃむしちゅーANN #2%http://www.nicovideo.jp/watch/sm8238000?ref=search_key_video%ゲスト なし%有田彼女が出来たスキャンダル%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #2
++ http://www.nicovideo.jp/watch/sm8238000?ref=search_key_video
++ ゲスト なし
++ 有田彼女が出来たスキャンダル
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #2\nhttp://t.co/Hm7IrIF5fG\nゲスト なし\n有田彼女が出来たスキャンダル"
+> 
+くりぃむしちゅーANN #70%http://www.nicovideo.jp/watch/sm10013841?ref=search_key_video%蒼井そら%第8回童貞妄想選手権%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #70
++ http://www.nicovideo.jp/watch/sm10013841?ref=search_key_video
++ 蒼井そら
++ 第8回童貞妄想選手権
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #70\nhttp://t.co/yiD7ZLxOvt\n蒼井そら\n第8回童貞妄想選手権"
+> 
+くりぃむしちゅーANN #96%http://www.nicovideo.jp/watch/sm11446273?ref=search_key_video%ゲスト なし%有田みちこ（有田母）の話（スピード違反「熊本のフェルナンド・アロンソなんだ」/当たり屋に遭う/子供にほっぺたをつねられて号泣/麻雀ができる/脳トレにハマる）%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #96
++ http://www.nicovideo.jp/watch/sm11446273?ref=search_key_video
++ ゲスト なし
++ 有田みちこ（有田母）の話（スピード違反「熊本のフェルナンド・アロンソなんだ」/当たり屋に遭う/子供にほっぺたをつねられて号泣/麻雀ができる/脳トレにハマる）
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+Error in updateStatus(message) : 
+  Status can not be more than 140 characters
+Execution halted
+くりぃむしちゅーANN #98%http://www.nicovideo.jp/watch/sm11454551?ref=search_key_video%ゲスト なし%ナベプロに移籍したい%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #98
++ http://www.nicovideo.jp/watch/sm11454551?ref=search_key_video
++ ゲスト なし
++ ナベプロに移籍したい
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #98\nhttp://t.co/ZvQtVkrPke\nゲスト なし\nナベプロに移籍したい"
+> 
+くりぃむしちゅーANN #71%http://www.nicovideo.jp/watch/sm9856622?ref=search_key_video%ゲスト なし%『スターダストナイト』(寒いわね/木下登場/チキチキ/ビートボックス/水没...計6分15秒)%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #71
++ http://www.nicovideo.jp/watch/sm9856622?ref=search_key_video
++ ゲスト なし
++ 『スターダストナイト』(寒いわね/木下登場/チキチキ/ビートボックス/水没...計6分15秒)
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #71\nhttp://t.co/WX1l3lz8Fy\nゲスト なし\n『スターダストナイト』(寒いわね/木下登場/チキチキ/ビートボックス/水没...計6分15秒)"
+> 
+くりぃむしちゅーANN #71%http://www.nicovideo.jp/watch/sm9856622?ref=search_key_video%ゲスト なし%『スターダストナイト』(寒いわね/木下登場/チキチキ/ビートボックス/水没...計6分15秒)%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #71
++ http://www.nicovideo.jp/watch/sm9856622?ref=search_key_video
++ ゲスト なし
++ 『スターダストナイト』(寒いわね/木下登場/チキチキ/ビートボックス/水没...計6分15秒)
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "Forbidden"
+Error in twInterfaceObj$doAPICall("statuses/update", params = params,  : 
+  Error: Forbidden
+Calls: updateStatus -> <Anonymous>
+Execution halted
+くりぃむしちゅーANN #2%http://www.nicovideo.jp/watch/sm8238000?ref=search_key_video%ゲスト なし%有田彼女が出来たスキャンダル%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #2
++ http://www.nicovideo.jp/watch/sm8238000?ref=search_key_video
++ ゲスト なし
++ 有田彼女が出来たスキャンダル
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "Forbidden"
+Error in twInterfaceObj$doAPICall("statuses/update", params = params,  : 
+  Error: Forbidden
+Calls: updateStatus -> <Anonymous>
+Execution halted
+くりぃむしちゅーANN #21%http://www.nicovideo.jp/watch/sm8291045?ref=search_key_video%ゲスト なし%『スターダストナイト』命名%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #21
++ http://www.nicovideo.jp/watch/sm8291045?ref=search_key_video
++ ゲスト なし
++ 『スターダストナイト』命名
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #21\nhttp://t.co/9HJiy1ma3V\nゲスト なし\n『スターダストナイト』命名"
+> 
+くりぃむしちゅーANN #9%http://www.nicovideo.jp/watch/sm8265359?ref=search_key_video%ゲスト なし%台風情報%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #9
++ http://www.nicovideo.jp/watch/sm8265359?ref=search_key_video
++ ゲスト なし
++ 台風情報
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "Forbidden"
+Error in twInterfaceObj$doAPICall("statuses/update", params = params,  : 
+  Error: Forbidden
+Calls: updateStatus -> <Anonymous>
+Execution halted
+くりぃむしちゅーANN #159%http://www.nicovideo.jp/watch/sm9834426?ref=search_key_video%リスナー%最終回%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #159
++ http://www.nicovideo.jp/watch/sm9834426?ref=search_key_video
++ リスナー
++ 最終回
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #159\nhttp://t.co/iojmbT6RwP\nリスナー\n最終回"
+> 
+くりぃむしちゅーANN #130%http://www.nicovideo.jp/watch/sm13190248?ref=search_key_video%オリエンタルラジオ%はなまるマーケットに出演%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #130
++ http://www.nicovideo.jp/watch/sm13190248?ref=search_key_video
++ オリエンタルラジオ
++ はなまるマーケットに出演
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #130\nhttp://t.co/vtcEhGm6zb\nオリエンタルラジオ\nはなまるマーケットに出演"
+> 
+くりぃむしちゅーANN #21%http://www.nicovideo.jp/watch/sm8291045?ref=search_key_video%ゲスト なし%『スターダストナイト』命名%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #21
++ http://www.nicovideo.jp/watch/sm8291045?ref=search_key_video
++ ゲスト なし
++ 『スターダストナイト』命名
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "Forbidden"
+Error in twInterfaceObj$doAPICall("statuses/update", params = params,  : 
+  Error: Forbidden
+Calls: updateStatus -> <Anonymous>
+Execution halted
+くりぃむしちゅーANN #58%http://www.nicovideo.jp/watch/sm8815625?ref=search_key_video%ゲスト なし%たけしさんの世紀末毒談か！%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #58
++ http://www.nicovideo.jp/watch/sm8815625?ref=search_key_video
++ ゲスト なし
++ たけしさんの世紀末毒談か！
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #58\nhttp://t.co/GvMHJmzfly\nゲスト なし\nたけしさんの世紀末毒談か！"
+> 
+くりぃむしちゅーANN #54%http://www.nicovideo.jp/watch/sm8637700?ref=search_key_video%ゲスト なし%テレビで泣いたことがない%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #54
++ http://www.nicovideo.jp/watch/sm8637700?ref=search_key_video
++ ゲスト なし
++ テレビで泣いたことがない
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #54\nhttp://t.co/1L0XyQ9prL\nゲスト なし\nテレビで泣いたことがない"
+> 
+くりぃむしちゅーANN #7%http://www.nicovideo.jp/watch/sm8256913?ref=search_key_video%土田晃之%有田ライブチャットにハマる（コマンド/ワンブラジャー）%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #7
++ http://www.nicovideo.jp/watch/sm8256913?ref=search_key_video
++ 土田晃之
++ 有田ライブチャットにハマる（コマンド/ワンブラジャー）
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #7\nhttp://t.co/uzcEMLsZLA\n土田晃之\n有田ライブチャットにハマる（コマンド/ワンブラジャー）"
+> 
+くりぃむしちゅーANN #96%http://www.nicovideo.jp/watch/sm11446273?ref=search_key_video%ゲスト なし%有田みちこ（有田母）の話（スピード違反「熊本のフェルナンド・アロンソなんだ」/当たり屋に遭う/子供にほっぺたをつねられて号泣/麻雀ができる/脳トレにハマる）%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #96
++ http://www.nicovideo.jp/watch/sm11446273?ref=search_key_video
++ ゲスト なし
++ 有田みちこ（有田母）の話（スピード違反「熊本のフェルナンド・アロンソなんだ」/当たり屋に遭う/子供にほっぺたをつねられて号泣/麻雀ができる/脳トレにハマる）
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+Error in updateStatus(message) : 
+  Status can not be more than 140 characters
+Execution halted
+くりぃむしちゅーANN #124%http://www.nicovideo.jp/watch/sm13134590?ref=search_key_video%相澤仁美%Yahooの急上昇検索ワードランキング第３位に「ロッキーの撮影」%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #124
++ http://www.nicovideo.jp/watch/sm13134590?ref=search_key_video
++ 相澤仁美
++ Yahooの急上昇検索ワードランキング第３位に「ロッキーの撮影」
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #124\nhttp://t.co/wT3krFqAJf\n相澤仁美\nYahooの急上昇検索ワードランキング第３位に「ロッキーの撮影」"
+> 
+くりぃむしちゅーANN #97%http://www.nicovideo.jp/watch/sm11446439?ref=search_key_video%Remark Spirits%有田の肥満問題%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #97
++ http://www.nicovideo.jp/watch/sm11446439?ref=search_key_video
++ Remark Spirits
++ 有田の肥満問題
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #97\nhttp://t.co/uHmlnky1hZ\nRemark Spirits\n有田の肥満問題"
+> 
+くりぃむしちゅーANN #1%http://www.nicovideo.jp/watch/sm8230694?ref=search_key_video%ゲスト なし%「…ていうのもね、上田さん」%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #1
++ http://www.nicovideo.jp/watch/sm8230694?ref=search_key_video
++ ゲスト なし
++ 「…ていうのもね、上田さん」
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #1\nhttp://t.co/umzVkyg4xI\nゲスト なし\n「…ていうのもね、上田さん」"
+> 
+くりぃむしちゅーANN #133%http://www.nicovideo.jp/watch/sm13274621?ref=search_key_video%ゲスト なし%タマキンの流れから「誕生日おめでとう」%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #133
++ http://www.nicovideo.jp/watch/sm13274621?ref=search_key_video
++ ゲスト なし
++ タマキンの流れから「誕生日おめでとう」
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #133\nhttp://t.co/YwXl7icZrT\nゲスト なし\nタマキンの流れから「誕生日おめでとう」"
+> 
+くりぃむしちゅーANN #110%http://www.nicovideo.jp/watch/sm13072690?ref=search_key_video%古坂大魔王%ゲストを伏せてスタート%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #110
++ http://www.nicovideo.jp/watch/sm13072690?ref=search_key_video
++ 古坂大魔王
++ ゲストを伏せてスタート
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #110\nhttp://t.co/VSGJa4omtC\n古坂大魔王\nゲストを伏せてスタート"
+> 
+くりぃむしちゅーANN #108%http://www.nicovideo.jp/watch/sm11878713?ref=search_key_video%ゲスト なし%有田壊れ回%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #108
++ http://www.nicovideo.jp/watch/sm11878713?ref=search_key_video
++ ゲスト なし
++ 有田壊れ回
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #108\nhttp://t.co/HIAGakkshD\nゲスト なし\n有田壊れ回"
+> 
+くりぃむしちゅーANN #41%http://www.nicovideo.jp/watch/sm8418775?ref=search_key_video%ゲスト なし%GW街頭インタビューでスタート%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #41
++ http://www.nicovideo.jp/watch/sm8418775?ref=search_key_video
++ ゲスト なし
++ GW街頭インタビューでスタート
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #41\nhttp://t.co/6DTARp52rV\nゲスト なし\nGW街頭インタビューでスタート"
+> 
+くりぃむしちゅーANN #28%http://www.nicovideo.jp/watch/sm8301212?ref=search_key_video%ゲスト なし%『スターダストナイト』(バレンタインデー/義理グソ/坂上みき/何がスペシャルデーだ国生！)%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #28
++ http://www.nicovideo.jp/watch/sm8301212?ref=search_key_video
++ ゲスト なし
++ 『スターダストナイト』(バレンタインデー/義理グソ/坂上みき/何がスペシャルデーだ国生！)
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #28\nhttp://t.co/lpGmS6Be9W\nゲスト なし\n『スターダストナイト』(バレンタインデー/義理グソ/坂上みき/何がスペシャルデーだ国生！)"
+> 
+くりぃむしちゅーANN #96%http://www.nicovideo.jp/watch/sm11446273?ref=search_key_video%ゲスト なし%有田みちこ（有田母）の話（スピード違反「熊本のフェルナンド・アロンソなんだ」/当たり屋に遭う/子供にほっぺたをつねられて号泣/麻雀ができる/脳トレにハマる）%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #96
++ http://www.nicovideo.jp/watch/sm11446273?ref=search_key_video
++ ゲスト なし
++ 有田みちこ（有田母）の話（スピード違反「熊本のフェルナンド・アロンソなんだ」/当たり屋に遭う/子供にほっぺたをつねられて号泣/麻雀ができる/脳トレにハマる）
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+Error in updateStatus(message) : 
+  Status can not be more than 140 characters
+Execution halted
+くりぃむしちゅーANN #157%http://www.nicovideo.jp/watch/sm13474947?ref=search_key_video%デヴィ・スカルノ%有田罰ゲーム「大御所芸能人にハンパねぇ質問リターンズ」%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #157
++ http://www.nicovideo.jp/watch/sm13474947?ref=search_key_video
++ デヴィ・スカルノ
++ 有田罰ゲーム「大御所芸能人にハンパねぇ質問リターンズ」
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #157\nhttp://t.co/Bye6XQdS0a\nデヴィ・スカルノ\n有田罰ゲーム「大御所芸能人にハンパねぇ質問リターンズ」"
+> 
+くりぃむしちゅーANN #156%http://www.nicovideo.jp/watch/sm13474934?ref=search_key_video%ゲスト なし%上田ちゃんネル24時間ぐらいテレビの話（有田番組に出るタイミングを逃し続ける）%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #156
++ http://www.nicovideo.jp/watch/sm13474934?ref=search_key_video
++ ゲスト なし
++ 上田ちゃんネル24時間ぐらいテレビの話（有田番組に出るタイミングを逃し続ける）
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #156\nhttp://t.co/fEj1PGGzuu\nゲスト なし\n上田ちゃんネル24時間ぐらいテレビの話（有田番組に出るタイミングを逃し続ける）"
+> 
+くりぃむしちゅーANN #156%http://www.nicovideo.jp/watch/sm13474934?ref=search_key_video%ゲスト なし%上田ちゃんネル24時間ぐらいテレビの話（有田番組に出るタイミングを逃し続ける）%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #156
++ http://www.nicovideo.jp/watch/sm13474934?ref=search_key_video
++ ゲスト なし
++ 上田ちゃんネル24時間ぐらいテレビの話（有田番組に出るタイミングを逃し続ける）
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "Forbidden"
+Error in twInterfaceObj$doAPICall("statuses/update", params = params,  : 
+  Error: Forbidden
+Calls: updateStatus -> <Anonymous>
+Execution halted
+くりぃむしちゅーANN #54%http://www.nicovideo.jp/watch/sm8637700?ref=search_key_video%ゲスト なし%テレビで泣いたことがない%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #54
++ http://www.nicovideo.jp/watch/sm8637700?ref=search_key_video
++ ゲスト なし
++ テレビで泣いたことがない
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #54\nhttp://t.co/1L0XyQ9prL\nゲスト なし\nテレビで泣いたことがない"
+> 
+くりぃむしちゅーANN #94%http://www.nicovideo.jp/watch/sm11217216?ref=search_key_video%ゲスト なし%メリタ（有田）恋愛大反省会SP%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #94
++ http://www.nicovideo.jp/watch/sm11217216?ref=search_key_video
++ ゲスト なし
++ メリタ（有田）恋愛大反省会SP
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #94\nhttp://t.co/KeVA1IkFIV\nゲスト なし\nメリタ（有田）恋愛大反省会SP"
+> 
+くりぃむしちゅーANN #156%http://www.nicovideo.jp/watch/sm13474934?ref=search_key_video%ゲスト なし%上田ちゃんネル24時間ぐらいテレビの話（有田番組に出るタイミングを逃し続ける）%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #156
++ http://www.nicovideo.jp/watch/sm13474934?ref=search_key_video
++ ゲスト なし
++ 上田ちゃんネル24時間ぐらいテレビの話（有田番組に出るタイミングを逃し続ける）
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "Forbidden"
+Error in twInterfaceObj$doAPICall("statuses/update", params = params,  : 
+  Error: Forbidden
+Calls: updateStatus -> <Anonymous>
+Execution halted
+くりぃむしちゅーANN #29%http://www.nicovideo.jp/watch/sm8315138?ref=search_key_video%ゲスト なし%『スターダストナイト』（27足して9/沖縄にロケート/マイレボリューション/カラオケ化が始まる）%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #29
++ http://www.nicovideo.jp/watch/sm8315138?ref=search_key_video
++ ゲスト なし
++ 『スターダストナイト』（27足して9/沖縄にロケート/マイレボリューション/カラオケ化が始まる）
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #29\nhttp://t.co/Bd2vA5QM8S\nゲスト なし\n『スターダストナイト』（27足して9/沖縄にロケート/マイレボリューション/カラオケ化が始まる）"
+> 
+くりぃむしちゅーANN #78%http://www.nicovideo.jp/watch/sm10061951?ref=search_key_video%ゲスト なし%「ネットで探せるエイブル～♪」の続きが思い出せなくてキレる有田%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #78
++ http://www.nicovideo.jp/watch/sm10061951?ref=search_key_video
++ ゲスト なし
++ 「ネットで探せるエイブル～♪」の続きが思い出せなくてキレる有田
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #78\nhttp://t.co/S4IrCjqlRr\nゲスト なし\n「ネットで探せるエイブル～♪」の続きが思い出せなくてキレる有田"
+> 
+くりぃむしちゅーANN #69%http://www.nicovideo.jp/watch/sm11488925?ref=search_key_video%ゲスト なし%『スターダストナイト』(怪鳥音/チキチキ/ビートボックス...計5分4秒)%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #69
++ http://www.nicovideo.jp/watch/sm11488925?ref=search_key_video
++ ゲスト なし
++ 『スターダストナイト』(怪鳥音/チキチキ/ビートボックス...計5分4秒)
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #69\nhttp://t.co/GGZSSZfrql\nゲスト なし\n『スターダストナイト』(怪鳥音/チキチキ/ビートボックス...計5分4秒)"
+> 
+くりぃむしちゅーANN #84%http://www.nicovideo.jp/watch/sm11488642?ref=search_key_video%ゲスト なし%事務所の後輩、寿司（ことぶきつかさ）の営業ネタ%
+
+R version 3.1.0 (2014-04-10) -- "Spring Dance"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # install.packages("ROAuth)
+> library("twitteR")
+Loading required package: ROAuth
+Loading required package: RCurl
+Loading required package: bitops
+Loading required package: digest
+Loading required package: rjson
+> library("ROAuth")
+> 
+> # 各種key
+> twit.oauth <- OAuthFactory$new(
++   handshakeComplete = TRUE,
++   signMethod="HMAC",
++   consumerKey = "ovA5m5hAcjxDGB1acfZhEm7XT",
++   consumerSecret = "so24rfINLroaezilY6hpeOOge4DGlp5OBia5HJsaxFYI5XqDhe",
++   oauthKey = "2902739358-nyEEN85IiHAhJCuF9TtVSD2O4ZH4o3ZUoVzYBHD",
++   oauthSecret = "rFxtjh73jesJU9qEQr6UM6pfHGnKm0TrDAkHX3uk0NGNO"
++ )
+> 
+> ## 出力したい文字
+> 
+> registerTwitterOAuth(twit.oauth)
+[1] TRUE
+> message = "
++ くりぃむしちゅーANN #84
++ http://www.nicovideo.jp/watch/sm11488642?ref=search_key_video
++ ゲスト なし
++ 事務所の後輩、寿司（ことぶきつかさ）の営業ネタ
++ 
++ "
+> time = Sys.time()
+> updateStatus(message)
+[1] "ariue_allnight: くりぃむしちゅーANN #84\nhttp://t.co/WPiAUWKX4r\nゲスト なし\n事務所の後輩、寿司（ことぶきつかさ）の営業ネタ"
+> 
